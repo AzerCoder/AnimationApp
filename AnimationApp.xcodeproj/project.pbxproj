@@ -90,6 +90,26 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		820BEE052C6C96CE0082C666 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				820BEE032C6C853E0082C666 /* MenuRow.swift */,
+				8208ED862C6B87B40097230D /* VCard.swift */,
+				8208ED882C6B8C840097230D /* HCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		820BEE062C6C96E10082C666 /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				826D64E82C6A21BE00DB46A5 /* ContentView.swift */,
+				8208ED8C2C6B921B0097230D /* SideMenu.swift */,
+				82E9F8962C6B6CB600EAB178 /* TabBar.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
 		826D64DA2C6A21BE00DB46A5 = {
 			isa = PBXGroup;
 			children = (
@@ -111,13 +131,8 @@
 			children = (
 				8208ED832C6B87550097230D /* Model */,
 				826D64E62C6A21BE00DB46A5 /* AnimationAppApp.swift */,
-				826D64E82C6A21BE00DB46A5 /* ContentView.swift */,
-				8208ED8C2C6B921B0097230D /* SideMenu.swift */,
-				820BEE032C6C853E0082C666 /* MenuRow.swift */,
-				82E9F8962C6B6CB600EAB178 /* TabBar.swift */,
-				8208ED862C6B87B40097230D /* VCard.swift */,
-				8208ED882C6B8C840097230D /* HCard.swift */,
-				8208ED8A2C6B8F280097230D /* HomeView.swift */,
+				820BEE062C6C96E10082C666 /* Navigations */,
+				820BEE052C6C96CE0082C666 /* Components */,
 				82E9F8942C6B6C4600EAB178 /* Views */,
 				82E9F8952C6B6C5D00EAB178 /* Styles */,
 				826D64EA2C6A21C100DB46A5 /* Assets.xcassets */,
@@ -164,6 +179,7 @@
 		82E9F8942C6B6C4600EAB178 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8208ED8A2C6B8F280097230D /* HomeView.swift */,
 				826D64F72C6A22E200DB46A5 /* OnboardingView.swift */,
 				826D65122C6A391900DB46A5 /* SignInView.swift */,
 			);
