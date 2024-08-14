@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8208ED842C6B87550097230D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208ED812C6B87550097230D /* Course.swift */; };
+		8208ED852C6B87550097230D /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208ED822C6B87550097230D /* CourseSection.swift */; };
+		8208ED872C6B87B40097230D /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208ED862C6B87B40097230D /* VCard.swift */; };
+		8208ED892C6B8C840097230D /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208ED882C6B8C840097230D /* HCard.swift */; };
+		8208ED8B2C6B8F280097230D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208ED8A2C6B8F280097230D /* HomeView.swift */; };
+		8208ED8D2C6B921B0097230D /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208ED8C2C6B921B0097230D /* SideMenu.swift */; };
 		826D64E72C6A21BE00DB46A5 /* AnimationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D64E62C6A21BE00DB46A5 /* AnimationAppApp.swift */; };
 		826D64E92C6A21BE00DB46A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D64E82C6A21BE00DB46A5 /* ContentView.swift */; };
 		826D64EB2C6A21C100DB46A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826D64EA2C6A21C100DB46A5 /* Assets.xcassets */; };
@@ -27,9 +33,16 @@
 		826D65132C6A391900DB46A5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D65122C6A391900DB46A5 /* SignInView.swift */; };
 		826D65152C6A3E0900DB46A5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D65142C6A3E0900DB46A5 /* CustomTextField.swift */; };
 		826D65172C6A41AB00DB46A5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D65162C6A41AB00DB46A5 /* Extensions.swift */; };
+		82E9F8972C6B6CB600EAB178 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9F8962C6B6CB600EAB178 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8208ED812C6B87550097230D /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		8208ED822C6B87550097230D /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		8208ED862C6B87B40097230D /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		8208ED882C6B8C840097230D /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		8208ED8A2C6B8F280097230D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8208ED8C2C6B921B0097230D /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		826D64E32C6A21BE00DB46A5 /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		826D64E62C6A21BE00DB46A5 /* AnimationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAppApp.swift; sourceTree = "<group>"; };
 		826D64E82C6A21BE00DB46A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,11 +59,12 @@
 		826D65082C6A273B00DB46A5 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		826D65092C6A273B00DB46A5 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		826D650A2C6A273B00DB46A5 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		826D650F2C6A277D00DB46A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		826D650F2C6A277D00DB46A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826D65102C6A295400DB46A5 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		826D65122C6A391900DB46A5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		826D65142C6A3E0900DB46A5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		826D65162C6A41AB00DB46A5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		82E9F8962C6B6CB600EAB178 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8208ED832C6B87550097230D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8208ED812C6B87550097230D /* Course.swift */,
+				8208ED822C6B87550097230D /* CourseSection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		826D64DA2C6A21BE00DB46A5 = {
 			isa = PBXGroup;
 			children = (
@@ -84,17 +107,20 @@
 		826D64E52C6A21BE00DB46A5 /* AnimationApp */ = {
 			isa = PBXGroup;
 			children = (
-				826D650F2C6A277D00DB46A5 /* Info.plist */,
+				8208ED832C6B87550097230D /* Model */,
 				826D64E62C6A21BE00DB46A5 /* AnimationAppApp.swift */,
 				826D64E82C6A21BE00DB46A5 /* ContentView.swift */,
-				826D64F72C6A22E200DB46A5 /* OnboardingView.swift */,
-				826D65122C6A391900DB46A5 /* SignInView.swift */,
-				826D65162C6A41AB00DB46A5 /* Extensions.swift */,
-				826D65142C6A3E0900DB46A5 /* CustomTextField.swift */,
-				826D65102C6A295400DB46A5 /* CustomFont.swift */,
+				8208ED8C2C6B921B0097230D /* SideMenu.swift */,
+				82E9F8962C6B6CB600EAB178 /* TabBar.swift */,
+				8208ED862C6B87B40097230D /* VCard.swift */,
+				8208ED882C6B8C840097230D /* HCard.swift */,
+				8208ED8A2C6B8F280097230D /* HomeView.swift */,
+				82E9F8942C6B6C4600EAB178 /* Views */,
+				82E9F8952C6B6C5D00EAB178 /* Styles */,
 				826D64EA2C6A21C100DB46A5 /* Assets.xcassets */,
 				826D650B2C6A273B00DB46A5 /* Fonts */,
 				826D65002C6A239800DB46A5 /* RiveAssets */,
+				826D650F2C6A277D00DB46A5 /* Info.plist */,
 				826D64EC2C6A21C100DB46A5 /* Preview Content */,
 			);
 			path = AnimationApp;
@@ -130,6 +156,25 @@
 				826D650A2C6A273B00DB46A5 /* Poppins-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		82E9F8942C6B6C4600EAB178 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				826D64F72C6A22E200DB46A5 /* OnboardingView.swift */,
+				826D65122C6A391900DB46A5 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82E9F8952C6B6C5D00EAB178 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				826D65162C6A41AB00DB46A5 /* Extensions.swift */,
+				826D65142C6A3E0900DB46A5 /* CustomTextField.swift */,
+				826D65102C6A295400DB46A5 /* CustomFont.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +263,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8208ED842C6B87550097230D /* Course.swift in Sources */,
 				826D64F82C6A22E200DB46A5 /* OnboardingView.swift in Sources */,
+				8208ED8B2C6B8F280097230D /* HomeView.swift in Sources */,
+				8208ED8D2C6B921B0097230D /* SideMenu.swift in Sources */,
 				826D65112C6A295400DB46A5 /* CustomFont.swift in Sources */,
 				826D65152C6A3E0900DB46A5 /* CustomTextField.swift in Sources */,
+				8208ED892C6B8C840097230D /* HCard.swift in Sources */,
+				8208ED852C6B87550097230D /* CourseSection.swift in Sources */,
+				8208ED872C6B87B40097230D /* VCard.swift in Sources */,
+				82E9F8972C6B6CB600EAB178 /* TabBar.swift in Sources */,
 				826D64E92C6A21BE00DB46A5 /* ContentView.swift in Sources */,
 				826D64E72C6A21BE00DB46A5 /* AnimationAppApp.swift in Sources */,
 				826D65132C6A391900DB46A5 /* SignInView.swift in Sources */,
