@@ -11,6 +11,7 @@ import RiveRuntime
 struct OnboardingView: View {
     let button = RiveViewModel(fileName: "button")
     @State var showModal = false
+    @Binding var show:Bool
     var body: some View {
         ZStack {
             background
@@ -27,9 +28,9 @@ struct OnboardingView: View {
                     .transition(.move(edge: .bottom).combined(with: .opacity))
                     .overlay(
                         Button(action: {
-                                withAnimation(.spring){
-                                    showModal = false
-                                }
+                            withAnimation(.spring){
+                                showModal = false
+                            }
                         }, label: {
                             Image(systemName: "xmark")
                                 .frame(width: 36,height: 36)
@@ -43,12 +44,30 @@ struct OnboardingView: View {
                     .zIndex(1)
             }
             
+            Button {
+                withAnimation {
+                    show = false
+                }
+            } label: {
+                Image(systemName: "xmark")
+                    .frame(width: 36,height: 36)
+                    .background(.black)
+                    .foregroundColor(.white)
+                    .mask(Circle())
+                    .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 10)
+            }
+            
+            .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .topTrailing)
+            .padding(20)
+            .offset(y:showModal ? -200 : 80)
+            
+            
         }
     }
 }
 
 #Preview {
-    OnboardingView()
+    OnboardingView(show: .constant(false))
 }
 
 extension OnboardingView{
@@ -97,7 +116,7 @@ extension OnboardingView{
                             showModal = true
                         }
                     }
-            }
+                }
             
             Text("Purchase includes access to 30+ courses, 240+ premium tutorials, 120+ hours of videos, source files and certificates")
                 .customFont(.footnote)
